@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/site_menu_home" />
+
+    <item
+        android:id="@+id/action_categories"
+        android:icon="@drawable/ic_categories"
+        android:title="@string/site_menu_category_list" />
+
+    <item
+        android:id="@+id/action_fav"
+        android:icon="@drawable/ic_fav_gray"
+        android:title="@string/site_menu_fav" />
+</menu>
