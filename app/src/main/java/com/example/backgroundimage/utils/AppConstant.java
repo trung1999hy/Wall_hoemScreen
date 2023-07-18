@@ -38,6 +38,7 @@ public class AppConstant {
     public static final String PREF_NOTIFICATION = "perf_notification";
     public static final String PREF_FONT_SIZE = "pref_font_size";
     public static final String KEY_1_COIN = "key_in_app_23"; // 50 coin
+    public static final String KEY_COIN = "key_in_app_20"; // 10 coin
     public static final String KEY_2_COIN = "key_in_app_24"; // 100 coin
     public static final String KEY_3_COIN = "key_in_app_25"; // 200 coin
     public static final String KEY_4_COIN = "key_in_app_26"; // 400 coin

@@ -137,6 +137,11 @@ public class PurchaseInAppActivity extends AppCompatActivity implements Purchase
                         .setProductType(INAPP)
                         .build(),
 
+                QueryProductDetailsParams.Product.newBuilder()
+                        .setProductId(AppConstant.KEY_COIN)
+                        .setProductType(INAPP)
+                        .build(),
+
                 //Product 2
                 QueryProductDetailsParams.Product.newBuilder()
                         .setProductId(AppConstant.KEY_2_COIN)
@@ -263,6 +268,8 @@ public class PurchaseInAppActivity extends AppCompatActivity implements Purchase
                 return 700;
             case AppConstant.KEY_7_COIN:
                 return 99;
+            case AppConstant.KEY_COIN:
+                return 10;
             default:
                 return 0;
         }
